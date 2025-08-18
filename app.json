@@ -19,6 +19,18 @@
       "value": "SHABAN-MD︎"
     },
     
+    "OWNER_NAME": {
+      "description": "Type Bot Owner Name.",
+      "required": false,
+      "value": "MR-SHABAN"
+    }, 
+    
+    "OWNER_NUMBER": {
+      "description": "put the owner number for bot.",
+      "required": false,
+      "value": "923059395959"
+    }, 
+    
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": true,
@@ -34,8 +46,7 @@
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
-      "value": "public"
-      
+      "value": "public"   
     },
     
     "ALWAYS_ONLINE": {
@@ -190,4 +201,3 @@
      ],
   "stack": "heroku-24"
 }
-  
